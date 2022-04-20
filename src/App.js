@@ -31,7 +31,7 @@ function App() {
           <Route path="/asynchron" element={<Async />} />
           <Route path="/virtual_DOM" element={<Virtual />} />
           <Route path="/fragment" element={<Fragment />} />
-          <Route exact path="/" element={<Start />} />
+          <Route exact path="/shpora" element={<Start />} />
         </Routes>
       </body>
     </BrowserRouter>
