@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  background-color: rgb(255, 241, 223);
+}
+/* header {
+  background-color: rgb(255, 241, 223);
+  min-height: 100vh;
+  max-height: 100vmax;
+} */
+.menu {
+  width: 4vw;
+  height: 4vw;
+  position: absolute;
+  text-align: center;
+}
+#check-menu {
+  display: none;
+}
+label {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.burger-line {
+  position: absolute;
+  top: 1vw;
+  right: 0.5vw;
+  width: 3vw;
+  height: 0.2vw;
+  background-color: rgb(106, 135, 128);
+  transition: 0.5s all;
+}
+
+.second,
+.third {
+  top: 2vw;
+}
+
+.forth {
+  top: 3vw;
+}
+.main-menu {
+  display: block;
+  position: absolute;
+  width: 20vw;
+  bottom: 0;
+  left: 0;
+  transform: translateY(100%);
+  max-height: 0;
+  font-size: 0;
+  overflow: hidden;
+  transition: 0.5s all;
+}
+a {
+  display: block;
+  width: 100%;
+  height: 3vw;
+  line-height: 3vw;
+  color: rgb(255, 241, 223);
+  text-decoration: none;
+  border-top: .1vw solid rgb(255, 241, 223);
+  border-bottom: .2vw solid rgb(255, 241, 223);
+  border-right: .2vw solid rgb(255, 241, 223);
+  background-color: rgb(106, 135, 128);
+}
+#check-menu:checked ~ .main-menu {
+  max-height: 100vw;
+  font-size: 1vw;
+}
+
+#check-menu:checked ~ label .first {
+  display: none;
+}
+#check-menu:checked ~ label .forth {
+  display: none;
+}
+#check-menu:checked ~ label .second {
+  transform: rotate(45deg);
+}
+#check-menu:checked ~ label .third {
+  transform: rotate(-45deg);
+}
+
+h2 {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 1vw;
+  font-size: 4vw;
+  color: rgb(106, 135, 128);
+}
+p {
+  width: 80vw;
+  text-indent: 5vw;
+  margin: auto;
+  margin-bottom: 1vw;
+  font-size: 1.3vw;
+  color: rgb(106, 135, 128);
+}
+code{
+  width: 70vw;
+  margin: auto;
+  display: block;
+  padding: 1vw;
+  font-size: 1vw;
+  color: rgb(255, 241, 223);
+  border: .1vw solid rgb(0, 0, 0);
+  background-color: rgb(106, 135, 128);
+}
+h1{
+  position: absolute;
+  top: 30%;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 4vw;
+  color: rgb(106, 135, 128);
+  background-color: rgba(0, 0, 0, 0);
+}
