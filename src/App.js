@@ -13,6 +13,7 @@ import Refs from "./components/refs";
 import Fragment from "./components/fragment";
 import Async from "./components/async";
 import Virtual from "./components/virtualdom";
+import Router from "./components/router";
 import Navigation from "./components/navigation";
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <Route path="/asynchron" element={<Async />} />
           <Route path="/virtual_DOM" element={<Virtual />} />
           <Route path="/fragment" element={<Fragment />} />
+          <Route path="/router" element={<Router />} />
           <Route exact path="/shpora" element={<Start />} />
         </Routes>
       </body>
