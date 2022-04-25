@@ -13,6 +13,8 @@ import Refs from "./components/refs";
 import Fragment from "./components/fragment";
 import Async from "./components/async";
 import Virtual from "./components/virtualdom";
+import UseEffect from "./components/useEffect";
+import Memo from "./components/memo";
 import Router from "./components/router";
 import Context from "./components/context";
 import Form from "./components/form";
@@ -34,6 +36,8 @@ function App() {
           <Route path="/asynchron" element={<Async />} />
           <Route path="/virtual_DOM" element={<Virtual />} />
           <Route path="/fragment" element={<Fragment />} />
+          <Route path="/memo" element={<Memo />} />
+          <Route path="/useEffect" element={<UseEffect />} />
           <Route path="/router" element={<Router />} />
           <Route path="/context" element={<Context />} />
           <Route path="/form" element={<Form />} />

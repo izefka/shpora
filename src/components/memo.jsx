@@ -1,9 +1,9 @@
 import React from "react";
 
-function Router() {
+function Memo() {
   return (
     <>
-      <h2>Router</h2>
+      <h2>React.memo</h2>
       <p>Установка: npm install react-router-dom</p>
       <p>
         В React имеется своя система маршрутизации, которая позволяет
@@ -58,4 +58,4 @@ function Router() {
   );
 }
 
-export default Router;
+export default Memo;

@@ -23,7 +23,7 @@ function Navigation() {
           <NavLink to="/asynchron">Asynchronous request</NavLink>
           <NavLink to="/virtual_DOM">Virtual DOM</NavLink>
           <NavLink to="/fragment">Fragment</NavLink>
-          <NavLink to="/react_memo">React.memo</NavLink>
+          <NavLink to="/memo">React.memo</NavLink>
           <NavLink to="/useEffect">useEffect</NavLink>
           <NavLink to="/router">Router</NavLink>
           <NavLink to="/context">Context</NavLink>
