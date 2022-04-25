@@ -14,6 +14,8 @@ import Fragment from "./components/fragment";
 import Async from "./components/async";
 import Virtual from "./components/virtualdom";
 import Router from "./components/router";
+import Context from "./components/context";
+import Form from "./components/form";
 import Navigation from "./components/navigation";
 
 function App() {
@@ -33,6 +35,8 @@ function App() {
           <Route path="/virtual_DOM" element={<Virtual />} />
           <Route path="/fragment" element={<Fragment />} />
           <Route path="/router" element={<Router />} />
+          <Route path="/context" element={<Context />} />
+          <Route path="/form" element={<Form />} />
           <Route exact path="/shpora" element={<Start />} />
         </Routes>
       </body>
